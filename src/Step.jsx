@@ -48,6 +48,10 @@ export const Step = () => {
               </label>
             </div>
           ))}
+          {/* Ovdje želim prikazati poruku ako dođe do pogreške prilikom submita. Mislim da je problem što ova komponenta uopće ne vidi "errors" objekt, jer svu logiku oko forme držim u contextu. */}
+          {errors[`${data.name}`] && (
+            <p>Potrebno je odabrati jedan od odgovora.</p>
+          )}
         </div>
       </fieldset>
       <div className="flex pt-6">
