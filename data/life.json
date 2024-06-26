@@ -1,0 +1,120 @@
+{
+  "questionnaire": {
+    "stepOne": {
+      "name": "urgency",
+      "question": "Koliko vam je hitno ugovaranje životnog osiguranja?",
+      "options": [
+        { "answer": "Što prije to bolje!", "value": "asap" },
+        { "answer": "Kroz idućih mjesec dana.", "value": "soon" },
+        {
+          "answer": "Ne tako hitno - kroz idućih pola godine.",
+          "value": "awhile"
+        },
+        { "answer": "Nije hitno, samo razgledam.", "value": "browsing" }
+      ]
+    },
+    "stepTwo": {
+      "name": "reason",
+      "question": "Iz kojeg razloga vas zanima životno osiguranje?",
+      "options": [
+        {
+          "answer": "Kao zamjena za moja primanja kada me ne bude.",
+          "value": "income"
+        },
+        {
+          "answer": "Želim znati da mi je obitelj sigurna ako se najgore dogodi.",
+          "value": "safety"
+        },
+        {
+          "answer": "Ne želim da iza mene ostanu krediti i druga dugovanja.",
+          "value": "debts"
+        },
+        {
+          "answer": "Želim djeci omogućiti kvalitetno školovanje.",
+          "value": "children"
+        }
+      ]
+    },
+    "stepThree": {
+      "name": "policy",
+      "question": "Imate li raniju policu životnog osiguranja?",
+      "options": [
+        {
+          "answer": "Ne, prvi puta ugovaram životno osiguranje.",
+          "value": "first"
+        },
+        {
+          "answer": "Da, ali želim još veću sigurnost.",
+          "value": "additional"
+        },
+        {
+          "answer": "Da, ali mi ističe uskoro.",
+          "value": "expiring"
+        },
+        {
+          "answer": "Ne, već mi je istekla.",
+          "value": "expired"
+        }
+      ]
+    },
+    "stepFour": {
+      "name": "family",
+      "question": "Imate li obitelj/partnera koja ovisi o vašim primanjima?",
+      "options": [
+        {
+          "answer": "Da, imam partnera ili partnericu.",
+          "value": "partner"
+        },
+        {
+          "answer": "Da, imam partnera ili partnericu i djecu.",
+          "value": "both"
+        },
+        {
+          "answer": "Imam samo dijete ili djecu koji ovise o meni.",
+          "value": "kids"
+        },
+        {
+          "answer": "Ne, nitko ne ovisi o mojim primanjima osim mene.",
+          "value": "alone"
+        }
+      ]
+    }
+  },
+  "calculator": {
+    "ages": {
+      "23": { "50000": 0.0014, "30000": 0.0023, "70000": 0.09, "90000": 0.8 },
+      "24": { "50000": 0.0015, "30000": 0.0023, "70000": 0.09, "90000": 0.8 },
+      "25": { "50000": 0.0016, "30000": 0.0023, "70000": 0.09, "90000": 0.8 },
+      "26": { "50000": 0.0017, "30000": 0.0023, "70000": 0.09, "90000": 0.8 },
+      "27": { "50000": 0.0019, "30000": 0.0023, "70000": 0.09, "90000": 0.8 },
+      "28": { "50000": 0.002, "30000": 0.0023, "70000": 0.09, "90000": 0.8 },
+      "29": { "50000": 0.0022, "30000": 0.0023, "70000": 0.09, "90000": 0.8 },
+      "30": { "50000": 0.0024, "30000": 0.0026, "70000": 0.09, "90000": 0.8 },
+      "31": { "50000": 0.0026, "30000": 0.0028, "70000": 0.09, "90000": 0.8 },
+      "32": { "50000": 0.0028, "30000": 0.0031, "70000": 0.09, "90000": 0.8 },
+      "33": { "50000": 0.003, "30000": 0.0033, "70000": 0.09, "90000": 0.8 },
+      "34": { "50000": 0.0033, "30000": 0.034, "70000": 0.09, "90000": 0.8 },
+      "35": { "50000": 0.0036, "30000": 0.004, "70000": 0.09, "90000": 0.8 },
+      "36": { "50000": 0.004, "30000": 0.0043, "70000": 0.09, "90000": 0.8 },
+      "37": { "50000": 0.0044, "30000": 0.0047, "70000": 0.09, "90000": 0.8 },
+      "38": { "50000": 0.0048, "30000": 0.0051, "70000": 0.09, "90000": 0.8 },
+      "39": { "50000": 0.0053, "30000": 0.0056, "70000": 0.09, "90000": 0.8 },
+      "40": { "50000": 0.0058, "30000": 0.0061, "70000": 0.09, "90000": 0.8 },
+      "41": { "50000": 0.0063, "30000": 0.0066, "70000": 0.09, "90000": 0.8 },
+      "42": { "50000": 0.007, "30000": 0.0072, "70000": 0.09, "90000": 0.8 },
+      "43": { "50000": 0.0076, "30000": 0.008, "70000": 0.09, "90000": 0.8 },
+      "44": { "50000": 0.0084, "30000": 0.0087, "70000": 0.09, "90000": 0.8 },
+      "45": { "50000": 0.0092, "30000": 0.0095, "70000": 0.09, "90000": 0.8 },
+      "46": { "50000": 0.0101, "30000": 0.01, "70000": 0.09, "90000": 0.8 },
+      "47": { "50000": 0.0111, "30000": 0.011, "70000": 0.09, "90000": 0.8 },
+      "48": { "50000": 0.0123, "30000": 0.013, "70000": 0.09, "90000": 0.8 },
+      "49": { "50000": 0.0136, "30000": 0.014, "70000": 0.09, "90000": 0.8 },
+      "50": { "50000": 0.015, "30000": 0.015, "70000": 0.09, "90000": 0.8 }
+    },
+    "pricing": {
+      "preferred": 1,
+      "standard": 1.15,
+      "smoker": 2
+    }
+  }
+}
